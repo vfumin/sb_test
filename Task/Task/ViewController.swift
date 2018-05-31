@@ -9,17 +9,14 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    private let bondChart = BondChartView()
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        bondChart.frame = view.bounds
+        bondChart.autoresizingMask = [.flexibleHeight, .flexibleWidth]
+        self.view.addSubview(bondChart)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 
 }
 

@@ -1,0 +1,15 @@
+
+platform :ios, '10.0'
+source 'https://github.com/ABTSoftware/PodSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+inhibit_all_warnings!
+use_frameworks!
+
+
+target 'Task' do
+pod 'RxSwift'
+pod 'RxCocoa'
+pod 'SciChart'
+end
+
