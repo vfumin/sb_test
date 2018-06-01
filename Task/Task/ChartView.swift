@@ -65,7 +65,7 @@ class ChartView: UIView{
         dataSeries.dataDistributionCalculator = SCIUserDefinedDistributionCalculator()
         series.dataSeries = dataSeries
         series.style.strokeStyle.thickness = 3
-        surface1.
+        
         surface1.renderableSeries.add(series)
         surface1.invalidateElement()
         SCIThemeManager.applyTheme(toThemeable: surface1, withThemeKey: "SciChart_Simple")
