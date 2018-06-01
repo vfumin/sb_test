@@ -1,0 +1,13 @@
+{% for enum in types.implementing.AutoEmpty|struct %}
+extension {{ enum.name }} {
+  public static let empty = {{ enum.name }}()
+  public var isEmpty: Bool { return self == {{enum.name}}.empty }
+}
+{% endfor %}
+
+{% for enum in types.implementing.AutoEmpty|class %}
+extension {{ enum.name }} {
+public static let empty = {{ enum.name }}()
+public var isEmpty: Bool { return self === {{enum.name}}.empty }
+}
+{% endfor %}

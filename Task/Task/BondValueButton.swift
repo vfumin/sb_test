@@ -13,10 +13,22 @@ class BondValueButton: UIButton{
         super.init(frame: CGRect.zero)
         self.setImage(#imageLiteral(resourceName: "ic_arrow_down"), for: .normal)
         setBondValue(value: .yield)
+        
+        backgroundColor = UIColor.white
+        setTitleColor(.black, for: .normal)
+        
+        layer.shadowOffset = CGSize(width: 2, height: 2)
+        layer.shadowOpacity = 0.5
+        layer.shadowRadius = 4
     }
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        layer.cornerRadius = frame.height / 2
     }
     
     func setBondValue(value: BondValue){

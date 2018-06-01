@@ -1,0 +1,8 @@
+#!/bin/sh
+
+
+./Pods/Sourcery/bin/sourcery --sources './Task' --templates ./Pods/Sourcery/Templates/AutoEquatable.stencil --output ./Sourcery/EqualityApp.swift
+
+./Pods/Sourcery/bin/sourcery --sources './Task' --templates ./Sourcery/AutoCases.stencil --output ./Sourcery/CasesApp.swift
+
+./Pods/Sourcery/bin/sourcery --sources './Task' --templates ./Sourcery/AutoEmpty.stencil --output ./Sourcery/EmptyApp.swift

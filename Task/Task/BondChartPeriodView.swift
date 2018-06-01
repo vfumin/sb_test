@@ -8,10 +8,25 @@
 
 import Foundation
 import UIKit
-class BondChartPeriodView: UIView{
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        backgroundColor = UIColor.blue
+import RxCocoa
+import RxSwift
+class BondChartPeriodView: UISegmentedControl{
+    init() {
+        super.init(frame: CGRect.zero)
+        
+        Period.allCases.forEach{
+            self.insertSegment(withTitle: $0.rawValue, at: self.numberOfSegments, animated: false)
+        }
+        
+        selectedSegmentIndex = 0
+        backgroundColor = .clear
+        tintColor = .clear
+        
+        setTitleTextAttributes([ NSAttributedStringKey.foregroundColor: UIColor.black
+            ], for: .normal)
+        
+        setTitleTextAttributes([ NSAttributedStringKey.foregroundColor: UIColor(red: 0.0, green: 0.0, blue: 1.0, alpha: 1)
+            ], for: .selected)
     }
     
     required init?(coder aDecoder: NSCoder) {

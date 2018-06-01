@@ -7,7 +7,7 @@
 //
 
 import Foundation
-enum BondValue: String{
+enum BondValue: String, AutoCases{
     case yield
     case price
 }

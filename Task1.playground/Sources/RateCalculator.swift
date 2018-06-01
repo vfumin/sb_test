@@ -1,16 +1,16 @@
 import Foundation
 
 public struct RateCalculator{
-    var sumValues = Double()
-    var rates = [Double]()
-    var values = [Double]()
-    var ratesStrings = [String]()
+    public var sumValues = Double() 
+    public var rates = [Double]()
+    public var values = [Double]()
+    public var ratesStrings = [String]()
     
     public init(){
         
     }
     
-    public mutating func calculate(values: [Double], presentationPrecision: Int = 3) {
+    public mutating func calculate(values: [Double], presentationPrecision: Int = 3) -> RateCalculator {
         let nf = NumberFormatter()
         nf.maximumFractionDigits = presentationPrecision
         nf.minimumFractionDigits = presentationPrecision
@@ -23,5 +23,6 @@ public struct RateCalculator{
         ratesStrings = rates.map({
             nf.string(from: NSNumber(value: $0))!
         })
+        return self
     }
 }

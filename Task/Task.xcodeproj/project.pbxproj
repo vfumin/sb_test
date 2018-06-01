@@ -17,6 +17,16 @@
 		B2855DF820C0021A00D66C73 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2855DF720C0021A00D66C73 /* ChartView.swift */; };
 		B2855DFA20C0808C00D66C73 /* SciChart_Simple.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2855DF920C0808C00D66C73 /* SciChart_Simple.plist */; };
 		B2855DFC20C080F100D66C73 /* SCIGenericWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2855DFB20C080F100D66C73 /* SCIGenericWrapper.swift */; };
+		B2855E0B20C111A900D66C73 /* AutoEmpty.stencil in Resources */ = {isa = PBXBuildFile; fileRef = B2855E0020C111A600D66C73 /* AutoEmpty.stencil */; };
+		B2855E0D20C111A900D66C73 /* AutoCases.stencil in Resources */ = {isa = PBXBuildFile; fileRef = B2855E0220C111A700D66C73 /* AutoCases.stencil */; };
+		B2855E0E20C111A900D66C73 /* CasesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2855E0320C111A700D66C73 /* CasesApp.swift */; };
+		B2855E0F20C111A900D66C73 /* EmptyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2855E0420C111A700D66C73 /* EmptyApp.swift */; };
+		B2855E1020C111A900D66C73 /* EqualityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2855E0520C111A800D66C73 /* EqualityApp.swift */; };
+		B2855E1320C111A900D66C73 /* SourceryScript in Resources */ = {isa = PBXBuildFile; fileRef = B2855E0820C111A900D66C73 /* SourceryScript */; };
+		B2855E1520C1123900D66C73 /* Sourcery.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2855E1420C1123900D66C73 /* Sourcery.swift */; };
+		B2855E1820C1226A00D66C73 /* Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2855E1720C1226A00D66C73 /* Bond.swift */; };
+		B2855E1A20C1345200D66C73 /* BondValueTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2855E1920C1345200D66C73 /* BondValueTableViewController.swift */; };
+		B2855E1D20C1488900D66C73 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2855E1C20C1488900D66C73 /* DataModel.swift */; };
 		B2C8330320BF422A0021AC58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C8330220BF422A0021AC58 /* AppDelegate.swift */; };
 		B2C8330520BF422A0021AC58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C8330420BF422A0021AC58 /* ViewController.swift */; };
 		B2C8330820BF422A0021AC58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C8330620BF422A0021AC58 /* Main.storyboard */; };
@@ -36,6 +46,16 @@
 		B2855DF720C0021A00D66C73 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		B2855DF920C0808C00D66C73 /* SciChart_Simple.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SciChart_Simple.plist; sourceTree = "<group>"; };
 		B2855DFB20C080F100D66C73 /* SCIGenericWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCIGenericWrapper.swift; sourceTree = "<group>"; };
+		B2855E0020C111A600D66C73 /* AutoEmpty.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AutoEmpty.stencil; sourceTree = "<group>"; };
+		B2855E0220C111A700D66C73 /* AutoCases.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AutoCases.stencil; sourceTree = "<group>"; };
+		B2855E0320C111A700D66C73 /* CasesApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CasesApp.swift; sourceTree = "<group>"; };
+		B2855E0420C111A700D66C73 /* EmptyApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyApp.swift; sourceTree = "<group>"; };
+		B2855E0520C111A800D66C73 /* EqualityApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EqualityApp.swift; sourceTree = "<group>"; };
+		B2855E0820C111A900D66C73 /* SourceryScript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = SourceryScript; sourceTree = "<group>"; };
+		B2855E1420C1123900D66C73 /* Sourcery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sourcery.swift; sourceTree = "<group>"; };
+		B2855E1720C1226A00D66C73 /* Bond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bond.swift; sourceTree = "<group>"; };
+		B2855E1920C1345200D66C73 /* BondValueTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BondValueTableViewController.swift; sourceTree = "<group>"; };
+		B2855E1C20C1488900D66C73 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		B2C832FF20BF422A0021AC58 /* Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Task.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2C8330220BF422A0021AC58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2C8330420BF422A0021AC58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,10 +90,6 @@
 		B2855DE720BFF5C900D66C73 /* BondChart */ = {
 			isa = PBXGroup;
 			children = (
-				B2855DFB20C080F100D66C73 /* SCIGenericWrapper.swift */,
-				B2855DF920C0808C00D66C73 /* SciChart_Simple.plist */,
-				B2855DF220C0002500D66C73 /* Data */,
-				B2855DED20BFFE4D00D66C73 /* Controls */,
 				B2855DE920BFF61E00D66C73 /* BondChartView.swift */,
 				B2855DEB20BFF62A00D66C73 /* BondChartViewModel.swift */,
 			);
@@ -86,6 +102,7 @@
 				B2855DEE20BFFE6A00D66C73 /* BondValueButton.swift */,
 				B2855DF020BFFEDF00D66C73 /* BondChartPeriodView.swift */,
 				B2855DF720C0021A00D66C73 /* ChartView.swift */,
+				B2855E1920C1345200D66C73 /* BondValueTableViewController.swift */,
 			);
 			name = Controls;
 			sourceTree = "<group>";
@@ -93,15 +110,39 @@
 		B2855DF220C0002500D66C73 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				B2855E1420C1123900D66C73 /* Sourcery.swift */,
 				B2855DF320C0004800D66C73 /* Period.swift */,
 				B2855DF520C0005A00D66C73 /* BondValue.swift */,
+				B2855E1720C1226A00D66C73 /* Bond.swift */,
 			);
 			name = Data;
+			sourceTree = "<group>";
+		};
+		B2855DFD20C1117D00D66C73 /* Sourcery */ = {
+			isa = PBXGroup;
+			children = (
+				B2855E0220C111A700D66C73 /* AutoCases.stencil */,
+				B2855E0020C111A600D66C73 /* AutoEmpty.stencil */,
+				B2855E0320C111A700D66C73 /* CasesApp.swift */,
+				B2855E0420C111A700D66C73 /* EmptyApp.swift */,
+				B2855E0520C111A800D66C73 /* EqualityApp.swift */,
+				B2855E0820C111A900D66C73 /* SourceryScript */,
+			);
+			path = Sourcery;
+			sourceTree = "<group>";
+		};
+		B2855E1B20C1487000D66C73 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B2855E1C20C1488900D66C73 /* DataModel.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 		B2C832F620BF422A0021AC58 = {
 			isa = PBXGroup;
 			children = (
+				B2855DFD20C1117D00D66C73 /* Sourcery */,
 				B2C8331420BF428D0021AC58 /* Task1.playground */,
 				B2C8330120BF422A0021AC58 /* Task */,
 				B2C8330020BF422A0021AC58 /* Products */,
@@ -121,13 +162,18 @@
 		B2C8330120BF422A0021AC58 /* Task */ = {
 			isa = PBXGroup;
 			children = (
-				B2855DE720BFF5C900D66C73 /* BondChart */,
-				B2C8330220BF422A0021AC58 /* AppDelegate.swift */,
-				B2C8330420BF422A0021AC58 /* ViewController.swift */,
-				B2C8330620BF422A0021AC58 /* Main.storyboard */,
-				B2C8330920BF422C0021AC58 /* Assets.xcassets */,
-				B2C8330B20BF422C0021AC58 /* LaunchScreen.storyboard */,
+				B2855E1B20C1487000D66C73 /* Services */,
 				B2C8330E20BF422C0021AC58 /* Info.plist */,
+				B2855DF920C0808C00D66C73 /* SciChart_Simple.plist */,
+				B2C8330220BF422A0021AC58 /* AppDelegate.swift */,
+				B2855DFB20C080F100D66C73 /* SCIGenericWrapper.swift */,
+				B2C8330420BF422A0021AC58 /* ViewController.swift */,
+				B2C8330920BF422C0021AC58 /* Assets.xcassets */,
+				B2855DE720BFF5C900D66C73 /* BondChart */,
+				B2855DED20BFFE4D00D66C73 /* Controls */,
+				B2855DF220C0002500D66C73 /* Data */,
+				B2C8330B20BF422C0021AC58 /* LaunchScreen.storyboard */,
+				B2C8330620BF422A0021AC58 /* Main.storyboard */,
 			);
 			path = Task;
 			sourceTree = "<group>";
@@ -153,6 +199,7 @@
 				B2C832FC20BF422A0021AC58 /* Frameworks */,
 				B2C832FD20BF422A0021AC58 /* Resources */,
 				635ED07DD6EDDB1681DEA821 /* [CP] Embed Pods Frameworks */,
+				B2855E1620C112B700D66C73 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -202,9 +249,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2C8330D20BF422C0021AC58 /* LaunchScreen.storyboard in Resources */,
+				B2855E0B20C111A900D66C73 /* AutoEmpty.stencil in Resources */,
 				B2855DFA20C0808C00D66C73 /* SciChart_Simple.plist in Resources */,
+				B2855E1320C111A900D66C73 /* SourceryScript in Resources */,
 				B2C8330A20BF422C0021AC58 /* Assets.xcassets in Resources */,
 				B2C8330820BF422A0021AC58 /* Main.storyboard in Resources */,
+				B2855E0D20C111A900D66C73 /* AutoCases.stencil in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +301,19 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		B2855E1620C112B700D66C73 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ./Sourcery/SourceryScript;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -262,11 +325,18 @@
 				B2855DEA20BFF61E00D66C73 /* BondChartView.swift in Sources */,
 				B2855DF620C0005A00D66C73 /* BondValue.swift in Sources */,
 				B2C8330520BF422A0021AC58 /* ViewController.swift in Sources */,
+				B2855E1A20C1345200D66C73 /* BondValueTableViewController.swift in Sources */,
 				B2855DF120BFFEDF00D66C73 /* BondChartPeriodView.swift in Sources */,
+				B2855E1520C1123900D66C73 /* Sourcery.swift in Sources */,
 				B2855DF820C0021A00D66C73 /* ChartView.swift in Sources */,
 				B2855DEF20BFFE6A00D66C73 /* BondValueButton.swift in Sources */,
+				B2855E1820C1226A00D66C73 /* Bond.swift in Sources */,
+				B2855E0E20C111A900D66C73 /* CasesApp.swift in Sources */,
 				B2C8330320BF422A0021AC58 /* AppDelegate.swift in Sources */,
+				B2855E1020C111A900D66C73 /* EqualityApp.swift in Sources */,
 				B2855DF420C0004800D66C73 /* Period.swift in Sources */,
+				B2855E1D20C1488900D66C73 /* DataModel.swift in Sources */,
+				B2855E0F20C111A900D66C73 /* EmptyApp.swift in Sources */,
 				B2855DFC20C080F100D66C73 /* SCIGenericWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -15,7 +15,12 @@ class ViewController: UIViewController {
         
         bondChart.frame = view.bounds
         bondChart.autoresizingMask = [.flexibleHeight, .flexibleWidth]
+        bondChart.viewController = self
         self.view.addSubview(bondChart)
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        bondChart.loadChart(isin: "Test")
     }
 
 }
